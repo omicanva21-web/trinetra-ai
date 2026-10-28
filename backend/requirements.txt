@@ -1,0 +1,6 @@
+# Full install: core + Ultralytics YOLO26 (uses PyTorch) + test tools.
+# On an NVIDIA laptop, install PyTorch with CUDA from https://pytorch.org FIRST; ultralytics then reuses it.
+-r requirements-core.txt
+ultralytics
+pytest
+httpx

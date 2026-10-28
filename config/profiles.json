@@ -1,0 +1,7 @@
+{
+  "station": {"label": "Station profile", "density_warn": 4.0, "density_danger": 5.0, "eta_alert_s": 120,
+              "speed_surge_mps": 1.8, "dwell_limit_s": 20, "pressure_ref": 0.02},
+  "demo":    {"label": "Demo profile (thresholds lowered for a safe staged crowd)", "density_warn": 0.8,
+              "density_danger": 1.5, "eta_alert_s": 120, "speed_surge_mps": 1.8, "dwell_limit_s": 8,
+              "pressure_ref": 0.02}
+}

@@ -1,0 +1,7 @@
+# Everything Trinetra needs to run with the bundled YOLOX detector (no PyTorch).
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlmodel>=0.0.22
+opencv-python>=4.8
+numpy>=1.26
+imageio-ffmpeg>=0.5

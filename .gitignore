@@ -1,0 +1,35 @@
+# Private: never publish these
+.env
+trinetra.db
+trinetra.db-*
+evidence/
+uploads/
+config/site.json
+config/*.tmp
+
+# Videos (they show people): keep them out of the repository
+clips/*
+!clips/README.md
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*_tracked.csv
+eval/*.csv
+
+# Large or separately licensed models: downloaded automatically (and checked) on first use
+models/yolox_s.onnx
+models/yolox_m.onnx
+models/yolo26n.pt
+models/*.part
+
+# Python, Node, OS
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+.DS_Store
+Thumbs.db

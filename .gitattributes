@@ -1,0 +1,8 @@
+# Keep launchers working whichever system commits them
+* text=auto
+*.bat text eol=crlf
+*.sh text eol=lf
+*.onnx binary
+*.pt binary
+*.png binary
+*.jpg binary
